@@ -230,8 +230,8 @@ background-color: var(--secondary);
 .proj {
   position: relative;
   overflow: hidden;
-  border-radius: 8px; /* Adjust the border radius as needed */
-  flex: 0 0 100%; /* Default to full width */
+  border-radius: 8px; 
+  flex: 0 0 100%; 
   max-width: 100%;
 }
 
@@ -239,11 +239,11 @@ background-color: var(--secondary);
   transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
   width: 100%;
   height: auto;
-  border-radius: 8px; /* Match the border radius */
+  border-radius: 8px; 
 }
 
 .proj:hover img {
-  transform: scale(1.05); /* Add scale effect */
+  transform: scale(1.05); 
   filter: blur(5px);
 }
 
@@ -257,19 +257,19 @@ background-color: var(--secondary);
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+  background: rgba(0, 0, 0, 0.5); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  border-radius: 8px; /* Match the border radius */
+  border-radius: 8px; 
 }
 
 .overlay h4 {
   margin-bottom: 10px;
-  font-weight: 700; /* Higher font weight */
+  font-weight: 700; 
   color: white;
 }
 
@@ -282,7 +282,7 @@ background-color: var(--secondary);
   background-color: var(--primary);
   color: var(--secondary);
   border: none;
-  border-radius: 8px; /* Add border radius */
+  border-radius: 8px; 
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -290,8 +290,8 @@ background-color: var(--secondary);
 }
 
 .overlay button:hover {
-  background-color: #426760; /* Specific hover background color */
-  color: white; /* White text on hover */
+  background-color: #426760; 
+  color: white; 
 }
 
 /* CONTACT */
@@ -619,9 +619,9 @@ h2 {
   }
 
   .proj {
-    flex: 0 0 48%; /* Two columns on tablet */
+    flex: 0 0 48%; 
     max-width: 48%;
-    margin-bottom: 24px; /* Adjust the spacing between the project cards */
+    margin-bottom: 24px; 
   }
 }
 
@@ -634,12 +634,12 @@ h2 {
   #portfolio {
     width: 100%;
     margin: auto;
-    min-height: 1200px;
+    min-height: 1360px;
     background-color: var(--dark);
   }
 
   .proj {
-    flex: 0 0 30%; /* Two columns on desktop, can be adjusted if you want more columns */
+    flex: 0 0 30%; /* Two columns on desktop */
     max-width: 30%;
     margin: 1%;
   }
