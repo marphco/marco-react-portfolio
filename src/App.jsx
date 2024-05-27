@@ -1,5 +1,5 @@
 import './App.css'
-import { Hero, About, Portfolio, PortfolioNavbar, Contact, Resume } from './components'
+import { Hero, About, Portfolio, PortfolioNavbar, Contact, Resume, Footer } from './components'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Portfolio/>
       <Contact/>
       <Resume/>
+      <Footer/>
     </div>
   );
 }
