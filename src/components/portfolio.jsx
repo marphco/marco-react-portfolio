@@ -1,10 +1,16 @@
 import React from 'react';
 import 'aos/dist/aos.css';
 import "../App.css";
-import { Pennywise, Scribella, ProcrastinEater, ArtHistory, PasswordGenerator, SoccerIQ } from "./assets/img"; 
+import { Pennywise, Scribella, ProcrastinEater, ArtHistory, Panorama, SoccerIQ } from "./assets/img"; 
 
 // Array containing details for each project
 const projects = [
+    {
+        name: 'Panorama',
+        image: `${Panorama}`,
+        githubLink: 'https://github.com/marphco/virtual-art-gallery',
+        liveDemo: 'https://virtual-art-gallery-panorama-35035413312c.herokuapp.com/'
+    },
     {
         name: 'Pennywise',
         image: `${Pennywise}`,
@@ -28,12 +34,6 @@ const projects = [
         image: `${ProcrastinEater}`,
         githubLink: 'https://github.com/marphco/procrastin-eater',
         liveDemo: 'https://marphco.github.io/procrastin-eater/'
-    },
-    {
-        name: 'Password-Generator',
-        image: `${PasswordGenerator}`,
-        githubLink: 'https://github.com/marphco/marco-franco-password-generator',
-        liveDemo: 'https://marphco.github.io/marco-franco-password-generator/'
     },
     {
         name: 'SoccerIQ',
