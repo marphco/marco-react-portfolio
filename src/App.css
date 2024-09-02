@@ -326,7 +326,7 @@ background-color: var(--secondary);
   font-family: var(--font) !important;
   display: flex;
   position: relative;
-  top: -360px;
+  top: -240px;
   padding: 48px;
   justify-content: center;
   flex-direction: column;
