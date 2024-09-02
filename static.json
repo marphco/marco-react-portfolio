@@ -1,0 +1,14 @@
+{
+    "root": "dist/",
+    "routes": {
+      "/": "index.html"
+    },
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "https://www.marcofr.com/",
+        "status": 301
+      }
+    ]
+  }
+  
