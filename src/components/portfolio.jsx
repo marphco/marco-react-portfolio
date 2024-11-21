@@ -15,7 +15,7 @@ const projects = [
         name: 'Pennywise',
         image: `${Pennywise}`,
         githubLink: 'https://github.com/marphco/pennywise',
-        liveDemo: 'pennywise-production.up.railway.app'
+        liveDemo: 'https://pennywise-production.up.railway.app'
     },
     {
         name: 'ArtHistory',
