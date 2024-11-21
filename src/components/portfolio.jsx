@@ -9,13 +9,13 @@ const projects = [
         name: 'Panorama',
         image: `${Panorama}`,
         githubLink: 'https://github.com/marphco/virtual-art-gallery',
-        liveDemo: 'https://virtual-art-gallery-panorama-35035413312c.herokuapp.com/'
+        liveDemo: 'https://panorama-virtual.vercel.app/'
     },
     {
         name: 'Pennywise',
         image: `${Pennywise}`,
         githubLink: 'https://github.com/marphco/pennywise',
-        liveDemo: 'https://pennywise-ace8592b7d74.herokuapp.com/'
+        liveDemo: 'pennywise-production.up.railway.app'
     },
     {
         name: 'ArtHistory',
@@ -27,7 +27,7 @@ const projects = [
         name: 'Scribella',
         image: `${Scribella}`,
         githubLink: 'https://github.com/marphco/scribella',
-        liveDemo: 'https://scribella-804de12279f0.herokuapp.com/'
+        liveDemo: 'https://scribella.vercel.app/'
     },
     {
         name: 'Procrastin-Eater',
